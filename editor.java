@@ -43,12 +43,12 @@ class Node {
 		return this.prev;
 	}
 	//처음 생성할 때에는 우측으로만 생성하므로 nextNode는 생각 x
-    //this <-> newNode
+    	//this <-> newNode
 	public void setNext(Node newNode) {
 		this.next = newNode;
 		newNode.prev = this;
 	}
-    //(root), null <- curserNode -> ...
+    	//(root), null <- curserNode -> ...
 	//prev 노드를 null로 마무리 짓는 메소드
 	public void setPrevToNull() {
 		this.prev = null;
@@ -121,7 +121,7 @@ class List {
 		}
 	}
 	//테스트 겸용 전체 데이터 출력 메소드
-  //이 부분도 매번 print하면 비효율적이라 하나의 String을 완성하고 print는 한번만 호출.
+  	//이 부분도 매번 print하면 비효율적이라 하나의 String을 완성하고 print는 한번만 호출.
 	public void print() {
 		Node current = root;
 		String result = "";
