@@ -1,4 +1,5 @@
 /*BAEKJOON 1406*/
+/*https://www.acmicpc.net/problem/1406*/
 /*한글설명 : http://potter777777.blog.me/221005436658*/
 import java.io.BufferedReader;
 import java.io.IOException;
